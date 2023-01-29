@@ -68,15 +68,6 @@ body {
   font-weight: bold;
 }
 
-.ourproducts_fluid {
-  font-size: 13px;
-}
-
-@media screen and (min-width: 768px) {
-  .ourproducts_fluid {
-    font-size: 16px;
-  }
-}
 .carousel-inner {
   width: 350px;
   margin: auto;
@@ -96,7 +87,8 @@ body {
 
 .shop__products img {
   width: 100%;
-  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 25px;
   margin-left: 3px;
 }
 
@@ -148,10 +140,12 @@ body {
   border-style: none;
 }
 
-/* Inicio about us */
 .aboutus__container {
-  color: #585759;
   padding: 10px;
+}
+
+.aboutus__container p {
+  color: #585759;
   text-align: justify;
 }
 
