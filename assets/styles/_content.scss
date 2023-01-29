@@ -1,23 +1,44 @@
 @use '_commons' as c;
 
-/* Inicio del main y presentacion de productos*/
-.product__presentation__container img{
-    width: 100%;
-    padding-top: -200px;
-    padding-bottom: 20px;
+body{
+    margin:0px;
 }
 
-@media screen and (min-width: 768px) {
-    .product__presentation__container img{
-        width: 100%;
-    }     
+// Inicio del main y presentacion de productos
+.product__presentation__container img{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .ourproducts_fluid h3{
     font-weight: bold;
 }
 
-/* Inicio shop */
+.ourproducts_fluid{
+    font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+    .ourproducts_fluid{
+        font-size: 16px;
+    }
+}
+
+.carousel-inner{
+    width: 350px;
+    margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-inner{
+        width: 500px;
+        padding-bottom: 30px;
+        margin: auto;
+    }
+}
+
+// Inicio shop
 .shop__intro__container{
     padding-left: 5px;
     margin-top: 20px;
