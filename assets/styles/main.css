@@ -1,0 +1,261 @@
+body {
+  margin: 0px;
+}
+
+.navbar-brand img {
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-brand img {
+    width: 200px;
+  }
+}
+.worldwide__shipping {
+  text-align: center;
+  font-size: 20px;
+  color: #585759;
+  margin-top: 10px;
+  margin-bottom: -25px;
+  background-color: #DCC7E7;
+  cursor: pointer;
+}
+
+.animate__animated.animate__flash {
+  --animate-duration: 4s;
+}
+
+.navbar-nav {
+  font-size: 20px;
+}
+
+.collapse ul li a:hover {
+  color: #F5C33B;
+  transform: scale(1.2);
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+/* Inicio del main y presentacion de productos*/
+.product__presentation__container img {
+  width: 100%;
+  padding-top: -200px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .product__presentation__container img {
+    width: 100%;
+  }
+}
+.ourproducts_fluid h3 {
+  font-weight: bold;
+}
+
+/* Inicio shop */
+.shop__intro__container {
+  padding-left: 5px;
+  margin-top: 20px;
+}
+
+.shop__products img {
+  width: 100%;
+  margin-bottom: 15px;
+  margin-left: 3px;
+}
+
+.lip__treatment__container,
+.glazing__treatment__container,
+.barrier__treatment__container,
+.kit__treatment__container {
+  margin-bottom: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .lip__treatment__container,
+.glazing__treatment__container,
+.barrier__treatment__container,
+.kit__treatment__container {
+    margin-bottom: 50px;
+    text-align: left;
+    display: flex;
+  }
+}
+.lip__container,
+.glazing__container,
+.barrier__container,
+.kit__container {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.lip__container img,
+.glazing__container img,
+.barrier__container img,
+.kit__container img {
+  width: 300px;
+}
+
+.user__add__cart {
+  background-color: transparent;
+  border-width: 1.5px;
+  border-radius: 5px;
+  border-color: #585759;
+  color: #585759;
+}
+
+.user__add__cart:hover {
+  background-color: #F5C33B;
+  color: #EFEFFB;
+  border-style: none;
+}
+
+/* Inicio about us */
+.aboutus__container {
+  color: #585759;
+  padding: 10px;
+  text-align: justify;
+}
+
+.aboutus__img__container {
+  margin-bottom: 30px;
+}
+
+.aboutus__img__container img {
+  width: 100%;
+}
+
+/* Inicio account */
+#account {
+  text-align: center;
+  display: flex;
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.login__container {
+  color: #585759;
+  margin: auto;
+  padding: 10px;
+}
+
+.login__input__container {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+
+.login__input__container input {
+  font-size: 18px;
+  color: #585759;
+  margin: auto;
+}
+
+.user__input {
+  border-style: none;
+  width: 320px;
+}
+
+.user__submit {
+  cursor: pointer;
+}
+
+.user__submit:hover {
+  background-color: #F5C33B;
+  color: #EFEFFB;
+  border-style: none;
+}
+
+.pss__forgot {
+  cursor: pointer;
+}
+
+.pss__forgot:hover {
+  color: #E05263;
+}
+
+.sign__up {
+  cursor: pointer;
+}
+
+.sign__up:hover {
+  color: #E05263;
+}
+
+/* Inicio cart */
+#cart {
+  font-size: 18px;
+  color: #585759;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 180px;
+}
+
+.cart__container h1 {
+  text-align: center;
+}
+
+.continue__shop {
+  text-align: center;
+}
+
+.to__shop {
+  text-decoration: underline;
+  color: #585759;
+}
+
+.to__shop:hover {
+  color: #E05263;
+}
+
+.footer__container__fluid {
+  color: #585759;
+  cursor: pointer;
+  background-color: #DCC7E7;
+}
+
+.footer__container__fluid h6 {
+  font-weight: bold;
+}
+
+.footer__container__fluid p {
+  color: #EFEFFB;
+  font-size: bolder;
+}
+
+.footer__container__fluid p a {
+  color: #EFEFFB;
+  text-decoration: none;
+}
+
+.user__submit,
+.user__input {
+  background-color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: transparent;
+  color: #585759;
+  width: auto;
+}
+
+.logo_dos {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.logo_dos img {
+  width: 100px;
+}
+
+.copyright__container {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #585759;
+}/*# sourceMappingURL=main.css.map */

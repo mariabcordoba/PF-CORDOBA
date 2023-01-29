@@ -1,0 +1,183 @@
+@use '_commons' as c;
+
+/* Inicio del main y presentacion de productos*/
+.product__presentation__container img{
+    width: 100%;
+    padding-top: -200px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .product__presentation__container img{
+        width: 100%;
+    }     
+}
+
+.ourproducts_fluid h3{
+    font-weight: bold;
+}
+
+/* Inicio shop */
+.shop__intro__container{
+    padding-left: 5px;
+    margin-top: 20px;
+    
+}
+
+.shop__products img{
+    width: 100%;    
+    margin-bottom: 15px;
+    margin-left: 3px;
+    
+}
+
+.lip__treatment__container,
+.glazing__treatment__container,
+.barrier__treatment__container,
+.kit__treatment__container{
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .lip__treatment__container,
+    .glazing__treatment__container,
+    .barrier__treatment__container,
+    .kit__treatment__container{
+        margin-bottom: 50px;
+        text-align: left;
+        display: flex; //Para poner img a izq y texto a la dcha
+    }    
+}
+
+.lip__container,
+.glazing__container,
+.barrier__container,
+.kit__container{    
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.lip__container img,
+.glazing__container img,
+.barrier__container img,
+.kit__container img{
+    width: 300px;
+}
+
+.user__add__cart{
+    background-color: transparent;
+    border-width: 1.5px;
+    border-radius: 5px;
+    border-color:map-get(c.$colors,"border_color");
+    color:map-get(c.$colors,"lettering_1");
+        
+}
+
+.user__add__cart:hover{
+    background-color:map-get(c.$colors,"color_hover1");
+    color:map-get(c.$colors,"lettering_3");
+    border-style: none;
+}
+
+/* Inicio about us */
+.aboutus__container{
+    color: map-get(c.$colors,"lettering_1");
+    padding:10px;
+    text-align: justify;
+}
+
+.aboutus__img__container {
+    margin-bottom: 30px;
+}
+
+.aboutus__img__container img{
+    width: 100%;
+}
+
+/* Inicio account */
+#account{    
+    text-align: center;
+    display: flex;
+    background-color:map-get(c.$colors,"background_grey");
+    margin-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.login__container{
+    color: map-get(c.$colors,"lettering_1");
+    margin: auto;
+    padding:10px;
+}
+
+.login__input__container{
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    padding:10px;
+}
+
+.login__input__container input{
+    font-size: 18px;
+    color: map-get(c.$colors,"lettering_1");
+    margin: auto;
+}
+
+.user__input{
+    border-style: none;
+    width: 320px;
+}
+
+.user__submit{
+    cursor:pointer;
+}
+
+.user__submit:hover{
+    background-color:map-get(c.$colors,"color_hover1");
+    color:map-get(c.$colors,"lettering_3");
+    border-style: none;
+}
+
+.pss__forgot{
+    cursor: pointer;
+}
+
+.pss__forgot:hover{
+    color: map-get(c.$colors,"color_hover2");
+}
+
+.sign__up{
+    cursor: pointer;
+}
+
+.sign__up:hover{
+    color: map-get(c.$colors,"color_hover2");
+}
+
+/* Inicio cart */
+#cart{
+    font-size: 18px;
+    color: map-get(c.$colors,"lettering_1");
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 180px;
+}
+
+.cart__container h1{
+    text-align: center;
+}
+
+.continue__shop{
+    text-align: center;
+}
+
+.to__shop{
+    text-decoration: underline;
+    color: map-get(c.$colors,"lettering_1");
+}
+
+.to__shop:hover{
+    color: map-get(c.$colors,"color_hover2");
+}
